@@ -1,39 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="75cc4010-390a-4255-ab60-15658c9972a3" name="Default Changelist" comment="初始提交测试">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/20190928practice.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qf/j1905/MySpringbootApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qf/j1905/config/ExceptionController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qf/j1905/config/ShiroConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qf/j1905/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qf/j1905/dao/PermissionMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qf/j1905/dao/UserCodeMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qf/j1905/dao/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qf/j1905/domain/Permission.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qf/j1905/domain/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qf/j1905/domain/UserCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qf/j1905/service/UserCodeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qf/j1905/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qf/j1905/service/impl/UserCodeServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qf/j1905/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qf/j1905/shiro/MyShiroRealm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qf/j1905/utils/EmailUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapping/permissionMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapping/userCodeMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapping/userMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/20190928practice.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/mapping/userCodeMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/mapping/userMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/META-INF/20190928practice.kotlin_module" afterDir="false" />
+    <list default="true" id="75cc4010-390a-4255-ab60-15658c9972a3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qf/j1905/123.text" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -48,14 +18,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/qf/j1905/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="40" column="25" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="25" />
+            <state relative-caret-position="336">
+              <caret line="48" selection-start-line="48" selection-end-line="48" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qf/j1905/123.text">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -103,6 +82,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/qf/j1905/domain/Permission.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qf/j1905/domain/UserCode.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qf/j1905/shiro/MyShiroRealm.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qf/j1905/123.text" />
       </list>
     </option>
   </component>
@@ -135,20 +115,15 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-      </list>
-    </option>
-  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="2" />
     <option name="width" value="1386" />
     <option name="height" value="788" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -205,17 +180,6 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="qf" type="462c0819:PsiDirectoryNode" />
               <item name="j1905" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="20190928practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="20190928practice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="qf" type="462c0819:PsiDirectoryNode" />
-              <item name="j1905" type="462c0819:PsiDirectoryNode" />
-              <item name="shiro" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -312,8 +276,16 @@
       <updated>1569652270660</updated>
       <workItem from="1569652277665" duration="5041000" />
       <workItem from="1569658260458" duration="10711000" />
-      <workItem from="1569718625608" duration="2428000" />
+      <workItem from="1569718625608" duration="4265000" />
     </task>
+    <task id="LOCAL-00001" summary="初始提交测试">
+      <created>1569739809713</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1569739809714</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -349,10 +321,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18180000" />
+    <option name="totallyTimeSpent" value="20017000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25718608" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -373,10 +346,10 @@
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" visible="true" weight="0.10655738" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.72786885" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
-      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="Version Control" order="14" visible="true" weight="0.04918033" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -676,11 +649,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/qf/j1905/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="40" column="25" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="25" />
+        <state relative-caret-position="336">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qf/j1905/123.text">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
         </state>
       </provider>
     </entry>
