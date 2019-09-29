@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.qf.dao.SysPermissionMapper">
+    <resultMap type="com.qf.j1905.domain.Permission" id="permMap">
+        <id column="permission_id" property="permissionId" />
+        <result column="permission_name" property="permissionName" />
+    </resultMap>
+    <select id="findPermissionsByUserId" resultMap="permMap">
+        select p.* from user_20190928 u,role r,permission p, user_role ur,role_permission rp
+        where u.user_id = ur.user_id
+        and ur.role_id = r.role_id
+        and r.role_id = rp.role_id
+        and rp.permission_id = p.permission_id
+        and u.user_id =#{userId}
+    </select>
+    
+    
+    </mapper>

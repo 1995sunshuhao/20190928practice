@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.qf.j1905.dao.UserCodeMapper">
+    <resultMap id="usercode" type="com.qf.j1905.domain.UserCode">
+        <result column="user_mail" property="userMail"></result>
+        <result column="user_code" property="userCode"></result>
+        <result column="code_status" property="codeStatus"></result>
+    </resultMap>
+    <insert id="save" parameterType="userCode">
+        INSERT INTO contact_user_code VALUES (#{userMail},#{userCode},#{codeStatus})
+    </insert>
+    <select id="findByUserMail" resultMap="usercode">
+        select * from contact_user_code where user_mail=#{userMail}
+    </select>
+    <update id="update" parameterType="userCode">
+        UPDATE contact_user_code SET user_code = #{userCode},code_status=#{codeStatus} WHERE user_mail = #{userMail}
+    </update>
+</mapper>
